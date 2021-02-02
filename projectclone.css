@@ -86,11 +86,15 @@ li.padding-logo,a.padding-logo{
     padding:1% ;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+.card-img-bottom{
+    object-fit: cover;
+}
 .col-styling-adv{
     background-color: transparent;
     box-shadow: none;
     padding-top:0;
 }
+
 .adv-styling{
     position: relative;
     margin-top:5%;
@@ -245,37 +249,39 @@ text-align: center;
 }
 @media screen and (max-width:993px){
     .xs-text{
-        font-size: .9rem;
+        font-size: .6rem;
     }
     .m-text{
-        font-size: 1.1rem;
+        font-size: .7rem;
     }
     .lg-text{
-        font-size: 1.7rem;
+        font-size: 1rem;
         }
         .mobile-nav{
             display:flex;
-            flex-direction: column;
+        
             justify-content: center;
            
         }
     .mobile-hello-nav{
         text-align: center;
+    }  
+    .second-navbar .nav-link {
+        font-size: .7rem;
     }
-   
-    
     .location-padding{
         padding-right:5px;
     }
     
     .mobile-nav-padding li{
-        padding: 7% 0;
+        padding: 2% 2%;
+    }
+    .mobile-list li{
+        margin: 0 2%;
     }
    
     
-       .nav-item .xlg-text{
-            font-size: 1.5rem;;
-        }
+    
         .tab-view{
             display: block;
         }
@@ -286,6 +292,7 @@ text-align: center;
         .div-privacy p{
             font-size: .7rem;
         }
+        
 }
 @media screen and (max-width:600px){
 .mobile-view{
