@@ -149,6 +149,9 @@ li.padding-logo,a.padding-logo{
     overflow-x:scroll;
 
 }
+.first-product{
+padding-left: 2%;
+}
 .fixing-text-raw-products{
 position: sticky;
 left:0.3%;
