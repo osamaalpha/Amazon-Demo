@@ -2,7 +2,8 @@
 
 <img src="./amazonimg.JPG">
 
-# Page is styled by bootstrap
+# Description
+<h4>In this project I was trying to learn more about bootstrap by replicating the amazon website</h4>
 
 <br>
 
